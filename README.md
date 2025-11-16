@@ -14,11 +14,11 @@ There are two implementations:
 2. `snake.asm` — pure RISC-V RV32I assembly implementation
 
 Both are designed to work with the same memory-mapped IO layout.
+<img width="2879" height="1704" alt="image" src="https://github.com/user-attachments/assets/977aae95-04c1-43a9-a726-4c12d6db5386" />
 
 ---
 
 ## IO Map (matches `ripes_io.h`)
-<img width="2879" height="1704" alt="image" src="https://github.com/user-attachments/assets/977aae95-04c1-43a9-a726-4c12d6db5386" />
 ```c
 // D-Pad
 #define D_PAD_0_BASE        (0xf0000000)
