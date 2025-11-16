@@ -18,7 +18,7 @@ Both are designed to work with the same memory-mapped IO layout.
 ---
 
 ## IO Map (matches `ripes_io.h`)
-
+<img width="2879" height="1704" alt="image" src="https://github.com/user-attachments/assets/977aae95-04c1-43a9-a726-4c12d6db5386" />
 ```c
 // D-Pad
 #define D_PAD_0_BASE        (0xf0000000)
@@ -37,6 +37,4 @@ Both are designed to work with the same memory-mapped IO layout.
 #define LED_MATRIX_1_BASE   (0xf0000dbc)
 #define LED_MATRIX_1_SIZE   (0x8c)
 #define LED_MATRIX_1_WIDTH  (0x7)   // 7
-#define LED_MATRIX_1_HEIGHT (0x5)   // 5
-  
-<img width="2879" height="1704" alt="image" src="https://github.com/user-attachments/assets/977aae95-04c1-43a9-a726-4c12d6db5386" />
+#define LED_MATRIX_1_HEIGHT (0x5)   // 5  
